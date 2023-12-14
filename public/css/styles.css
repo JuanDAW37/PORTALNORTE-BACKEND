@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    /*width: 100%;*/
+}
+
+.m-fondo {
+    background: #3498db;
+}
+
+.opciones:hover {
+    background-color: cornsilk;
+    color: red;
+}
+
+.imagen {
+    animation: zoom 5s
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(0.75);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
